@@ -1,0 +1,16 @@
+Package: AROG
+Type: Package
+Title: Annotation Regression for Genome-Wide Association Studies
+Version: 1.0
+Date: 2016-06-12
+Author: Sunyoung Shin
+Maintainer: Sunyoung Shin <shin@stat.wisc.edu>
+Description: Perform annotation regression for genome-wide association studies (Shin and Keles, 2016). Include and depend on fmrlasso package of Nicolas Staedler (https://nstaedler.wordpress.com/software/).
+License: GPL (>= 2)
+Depends:
+    R (>= 3.1.2)
+Imports:
+    parallel
+LazyLoad: yes
+URL: https://github.com/sunyoungshin/AROG
+RoxygenNote: 5.0.1.9000
